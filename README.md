@@ -1,38 +1,40 @@
-# Digital Matka - Modern Implementation of the Traditional Number Game
+# Ancient8 Fortune Wheels
 
-![Matka Game Banner](https://img.shields.io/badge/Digital-Matka-red?style=for-the-badge)
+![Game Banner](https://img.shields.io/badge/Ancient8-Fortune%20Wheels-red?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.31-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-Digital Matka is a modern, interactive web application built with Streamlit that simulates the traditional Indian Matka gambling game. This application is designed for educational purposes only to demonstrate how the Matka game works.
+Ancient8 Fortune Wheels is a modern, interactive web application built with Streamlit that reimagines traditional number-based games for the Web3 era. This application bridges traditional gaming culture with the emerging crypto ecosystem.
+
+## 🔮 Vision
+
+Bridging traditional number gaming with Web3 innovation to create an immersive, educational crypto experience that preserves cultural gaming traditions while launching players into the future of digital entertainment.
 
 ## 📋 Features
 
-- **Multiple Game Variants**: Play popular Matka variants like Kalyan, Worli, Milan Day, etc.
+- **Multiple Game Variants**: Play crypto-themed variants like Crypto Kalyan, Web3 Worli, and more
 - **Interactive UI**: Modern and responsive user interface with animations
 - **Real-time Results**: Simulated opening and closing results
-- **Bet Types**: Support for all major bet types (Single, Jodi, Patti, Sangam)
+- **Bet Types**: Support for all major bet types (Single, Double, Triple, etc.)
 - **Player Statistics**: Track your betting history and performance
 - **Responsive Design**: Works on desktop and mobile devices
-- **Virtual Balance**: Start with ₹1000 virtual currency
+- **Virtual Balance**: Start with OP tokens and track your winnings
 
-## 🚀 Quick Start
-
-### Live Demo
+## 🚀 Live Demo
 
 Try the application online:
-[Digital Matka Demo](https://matka-game.streamlit.app/)
+[Ancient8 Fortune Wheels](https://ancient8-fortune-wheels.streamlit.app/)
 
-### Local Installation
+## 💻 Local Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/digital-matka.git
-   cd digital-matka
+   git clone https://github.com/yourusername/ancient8-fortune-wheels.git
+   cd ancient8-fortune-wheels
    ```
 
-2. **Create a virtual environment (optional but recommended)**
+2. **Create a virtual environment**
    ```bash
    python -m venv venv
    # On Windows
@@ -56,23 +58,23 @@ Try the application online:
 
 ## 🎮 How to Play
 
-1. Enter your player name
-2. Choose a Matka game variant from the sidebar
+1. Enter your crypto alias
+2. Choose a game variant from the sidebar
 3. Select the type of bet you want to place
-4. Enter your bet amount and number(s)
-5. Wait for the results to see if you've won
+4. Enter your bet amount in OP tokens and select your numbers
+5. Check the results to see if you've won
 
 ## 🌟 Bet Types Explained
 
 | Bet Type | Description | Payout Ratio |
 |----------|-------------|--------------|
 | Single | Betting on a single digit (0-9) | 9x |
-| Jodi | Betting on a pair of digits (00-99) | 90x |
-| Single Patti | Betting on three unique digits | 150x |
-| Double Patti | Betting on three digits with one repeating | 300x |
-| Triple Patti | Betting on three identical digits | 1000x |
-| Half Sangam | Combination of Single and Patti | 1200x |
-| Full Sangam | Combination of Open Patti and Close Patti | 5000x |
+| Double | Betting on a pair of digits (00-99) | 90x |
+| Triple | Betting on three unique digits | 150x |
+| Quadruple | Betting on three digits with one repeating | 300x |
+| Quintuple | Betting on three identical digits | 1000x |
+| Half Combo | Combination of Single and Triple | 1200x |
+| Full Combo | Combination of Open Triple and Close Triple | 5000x |
 
 ## 🔧 Technical Details
 
@@ -84,41 +86,21 @@ The application is built using:
 - **Plotly**: For interactive visualizations
 - **Streamlit Extras**: For enhanced UI components
 
-## 🚀 Deploying to Streamlit Cloud
+## 🎨 UI Features
 
-1. **Push your code to GitHub**
-   
-   First, create a repository on GitHub and push your code:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/digital-matka.git
-   git push -u origin main
-   ```
+- **Teal/Amber/Coral Color Scheme**: A visually appealing color palette
+- **Custom Fonts**: Orbitron for headings and Poppins for body text
+- **Responsive Design**: Works well on all screen sizes
+- **Animations**: Subtle interactions and transitions for better user experience
+- **Themed Components**: All UI elements follow a consistent theme
 
-2. **Deploy on Streamlit Cloud**
-   
-   - Go to [Streamlit Cloud](https://streamlit.io/cloud)
-   - Sign in with your GitHub account
-   - Click "New app"
-   - Select your repository, branch (main), and the path to the app file (app.py)
-   - Click "Deploy"
+## 📝 Educational Purpose
 
-## 📝 Educational Disclaimer
+This application is created for educational and entertainment purposes only. No real cryptocurrency is involved. The project aims to:
 
-This application is created for educational and entertainment purposes only. No real money is involved, and the application does not promote or encourage actual gambling. The intent is to demonstrate:
-
-1. How the traditional Matka game works
-2. The mathematical probabilities involved
-3. Modern web application development with Python and Streamlit
-
-## 📱 Screenshots
-
-![Screenshot 1](https://via.placeholder.com/800x400?text=Game+Interface)
-![Screenshot 2](https://via.placeholder.com/800x400?text=Betting+Screen)
-![Screenshot 3](https://via.placeholder.com/800x400?text=Results+Display)
+1. Demonstrate modern web application development with Streamlit
+2. Showcase UI/UX best practices
+3. Provide an interactive experience of number-based games
 
 ## 📜 License
 
